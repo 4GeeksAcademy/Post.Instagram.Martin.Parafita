@@ -1,0 +1,53 @@
+body{
+    font-family: "Roboto";
+    display: flex;
+}
+.header{
+    width: 100%;
+    height: 5%;
+    top: 0;
+    position: absolute;
+}
+.header h1{
+    padding-left: 398px;
+}
+.page{
+    display: flex;
+    background: whitesmoke;
+    width: 100%;
+    height: 80%;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+img{
+    
+    width: 450px;
+    height: 300px;
+    object-position: center;
+    object-fit: cover;
+}
+h4{
+    padding-left: 4px;
+}
+p{
+    padding: 4px;
+    font-size: small;
+    max-width: fit-content;
+
+}
+.perrito, .skate, .coding, .food{
+    background: white;
+    position: relative;
+    margin: 30px;
+    width: 450px;
+    
+}
+.perrito h6, .skate h6, .coding h6, .food h6{
+    padding-right: 5px;
+    top: 0px;
+    color: grey;
+    position: absolute;
+    right: 0px;
+}
